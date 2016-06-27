@@ -1,0 +1,43 @@
+{
+    "name": "t_ishida/BehomaSample",
+    "authors": [
+        {
+            "name": "t_ishida",
+            "email": "ishida@aainc.co.jp"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/aainc/Hoimi.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/t-ishida/Behoma.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/aainc/Scruit.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/aainc/Mahotora.git",
+            "type": "git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sample\\": "app"
+        }
+    },
+    "require": {
+        "aainc/hoimi": "dev-master",
+        "aainc/scruit": "dev-master",
+        "aainc/mahotora": "dev-master",
+        "t_ishida/behoma": "dev-master",
+        "t_ishida/zaolik": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "phake/phake": "2.*"
+    }
+}
